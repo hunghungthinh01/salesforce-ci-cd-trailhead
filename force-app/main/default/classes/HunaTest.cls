@@ -1,11 +1,8 @@
 public with sharing class HunaTest {
-    public HunaTest() {
-
-    }
     private Boolean isDepZai() {
-        return false;
+        return true;
     }
     private String okBaby() {
-        return '';
+        return 'toi la dan choi';
     }
 }
