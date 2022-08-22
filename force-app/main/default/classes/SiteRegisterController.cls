@@ -18,6 +18,7 @@ public with sharing class SiteRegisterController {
     private boolean isValidPassword() {
         return password == confirmPassword;
     }
+    // Nguyen Hung comment at here
     
     public PageReference registerUser() {
         // it's okay if password is null - we'll send the user a random password in that case
