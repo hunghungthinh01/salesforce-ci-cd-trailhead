@@ -45,7 +45,7 @@
           username="${sfdc.username}"
           password="${sfdc.password}"
           serverurl="${sfdc.serverurl}"
-          deployRoot="${basedir}/src"
+          deployRoot="${basedir}/force-app/main/default"
           pollWaitMillis="${sfdc.pollWaitMillis}"
           maxPoll="${sfdc.maxPoll}"
           testLevel="RunLocalTests">
