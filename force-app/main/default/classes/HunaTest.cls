@@ -5,4 +5,7 @@ public with sharing class HunaTest {
     private Boolean isDepZai() {
         return false;
     }
+    private String okBaby() {
+        return '';
+    }
 }
