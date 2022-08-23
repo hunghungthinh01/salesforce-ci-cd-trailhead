@@ -5,7 +5,7 @@ pipelines:
     developer:
       - step:
           script:
-            - ant -verbose -buildfile build/build.xml deployEmptyCheckOnly -Dsfdc.username=$SFDC_USERNAME -Dsfdc.password=$SFDC_PASS$SFDC_TOKEN -Dsfdc.serverurl=https://$SFDC_SERVERURL
+            - ant -verbose -buildfile build/build.xml deployCode 
     feature/*:
       - step:
           script:
