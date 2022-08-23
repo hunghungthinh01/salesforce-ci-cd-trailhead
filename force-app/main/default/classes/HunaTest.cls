@@ -5,6 +5,6 @@ public with sharing class HunaTest {
     }
 
     public string antTool() {
-        return 'ant2662';
+        return 'vietnam';
     }
 }
