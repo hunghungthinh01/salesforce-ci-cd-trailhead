@@ -1,5 +1,3 @@
-image:
-  name: mklinski/salesforce
 pipelines:
   branches:
     developer:
